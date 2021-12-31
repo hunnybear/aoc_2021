@@ -55,7 +55,6 @@ class Board(object):
         marking regardless of whether I've found one
         """
 
-        got_one = False
         for row in self.rows:
             for cell in row:
                 if cell == call:
